@@ -1,20 +1,17 @@
 # Whitespace
 
-Whitespace is a minimal and responsive theme for [Octopress](http://octopress.org). This theme lets your content take the center stage of your blog.
+This is a slightly modification of Whitespace [Octopress](http://octopress.org) theme made by me. You can find the original whitespace here:
+[https://github.com/lucaslew/whitespace](https://github.com/lucaslew/whitespace)
 
 ## Demos
 
-Default theme: [Themespace Preview](http://themespace.github.io/whitespace/)
-
-Actual blogs: [Lucas Lew's blog](http://lucaslew.com), [Chymeric Tutorials](http://chymeric.eu), [Yous' Blog](http://yous.be/)
-
-*If you are using whitespace and would like to showcase your website, we would be very happy to add you to the list! Just tell us your URL via the issue tracking system!*
+Default theme: [Themespace Preview](http://jbilbo.com)
 
 ## Install
 
 ``` sh
 $ cd octopress
-$ git clone git://github.com/lucaslew/whitespace.git .themes/whitespace
+$ git clone git://github.com/jbilbo/whitespace.git .themes/whitespace
 $ rake install['whitespace'] # for zsh, use: rake install\['whitespace'\]
 $ rake generate
 ```
@@ -39,10 +36,6 @@ $ git fetch --all
 $ git reset --hard mywebsiterepo/master
 $ rake generate
 ```
-
-## Comment System
-
-We support the open-source [Juvia](https://github.com/phusion/juvia) comment system. To enable it, add the `juvia_site_key` and `juvia_host` parameters in `_config.yml`.
 
 ## Navigation Bar
 
