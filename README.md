@@ -5,7 +5,7 @@ This is a slightly modification of Whitespace [Octopress](http://octopress.org) 
 
 ## Demos
 
-Default theme: [Themespace Preview](http://jbilbo.com)
+Default theme: [Jonathan Hernandez blog](http://jbilbo.com)
 
 ## Install
 
